@@ -6,6 +6,7 @@ import { Form } from './NewContactForm.styled';
 export class NewContactForm extends Component {
   static propTypes = {
     onSubmit: PropTypes.func,
+    onChange: PropTypes.func,
   };
   state = { name: '', number: '' };
 
