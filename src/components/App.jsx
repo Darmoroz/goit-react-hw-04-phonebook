@@ -1,7 +1,6 @@
 import { nanoid } from 'nanoid';
 import { Section, NewContactForm, ContactsList, Filter } from 'components';
 import { useState } from 'react';
-import { useEffect } from 'react';
 import { useLocalStorage } from './hooks/useLocalStorage';
 
 export const App = () => {
